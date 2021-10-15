@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[50],i,x;
+	cout<< "Enter the no.of elements : ";
+	cin>>x;
+	cout<<"Enter the elements : ";
+	for(i=0;i<x;i++)
+	{
+		cin>>a[i];
+	}
+	cout<<"entered elements : ";
+	for(i=0;i<x;i++)
+	{
+		cout<<"\n"<<a[i];
+	}
+	return 0;
+}
