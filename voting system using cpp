@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std ;
+int main()
+{ 
+int i, j;
+cout<<"enter your age : ";
+cin>>i;
+cout<<"do you have voterid ?? if 'YES' then press '1' if 'NO' then press '0' " ;
+cin>>j;
+
+if(i>=18 && j==1)
+  {
+  	cout<<"you're reay to vote !!!";
+  }
+else
+ {
+ 	cout<<"sorry You're not ready to vote to vote because either you're under 18 years or you don't have voterid";
+ }
+return 0;
+}
